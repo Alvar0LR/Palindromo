@@ -41,9 +41,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener  {
 
         binding.screen.text = "$palabrareves"
         if (imput == palabrareves) {
-            binding.screen2.text = "si"
+            binding.screen2.text = "si, es un palindromo"
         }else{
-            binding.screen2.text = "no"
+            binding.screen2.text = "no, es un palindromo"
         }
     }
 
